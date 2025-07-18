@@ -5,16 +5,16 @@ import snowflake.connector
 import os
 
 
-SNOWFLAKE_USER = 'Harinivas'
-SNOWFLAKE_PASSWORD = 'ETLpipline@2025'
-SNOWFLAKE_ACCOUNT = 'do99106.ap-southeast-1'
+SNOWFLAKE_USER = '############'
+SNOWFLAKE_PASSWORD = '############'
+SNOWFLAKE_ACCOUNT = '#############'
 SNOWFLAKE_DATABASE = 'WEATHER_DB'
 SNOWFLAKE_SCHEMA = 'PUBLIC'
 SNOWFLAKE_WAREHOUSE = 'COMPUTE_WH'
 SNOWFLAKE_TABLE = 'WEATHER_DATA'
 
 city_name = "Coimbatore"
-API_KEY = "4f22b62e813a23d21232bcef17bef7b9"
+API_KEY = "######################"
 full_url = f"https://api.openweathermap.org/data/2.5/weather?q={city_name}&APPID={API_KEY}"
 
 def kelvin_to_fahrenheit(kelvin):
